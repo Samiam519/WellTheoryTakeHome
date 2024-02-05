@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.module.scss';
+import styles from '../../styles.module.scss';
 
 /* TODO:
 1. Center h1 and p elements, both horizontally and vertically. Use provided "styles" object.
@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 const Home = () => {
   return (
-    <section>
+    <section className={styles.home}>
       <h1>WellTheory</h1>
       <p>Complete the TODOs placed throughout the codebase.</p>
     </section>
